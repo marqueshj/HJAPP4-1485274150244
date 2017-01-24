@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HJAPP4
+  host: HJAPP4
+  disk_quota: 1024M
+  services:
+  - HJAPP4-cloudantNoSQLDB
